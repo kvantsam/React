@@ -9,6 +9,8 @@ function Dropdown (props) {
      }
 
      console.log('isOpened', this.state.isOpened);
+    // console.log('isOpened', this.state.isOpened);
+    // console.log('isOpened', this.state.isOpened);
 
     return <div onClick={toggleState(this.state)}>{props.fio}</div>;
 
